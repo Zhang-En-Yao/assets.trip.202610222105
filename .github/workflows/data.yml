@@ -1,0 +1,26 @@
+name: Data
+
+# The work happens in assets.core, so every trip runs the same build scripts.
+on:
+  workflow_dispatch:
+    inputs:
+      places:
+        description: Refresh places.json from Wikidata
+        type: boolean
+        default: true
+      streets:
+        description: Fetch any streets.json maps that are missing
+        type: boolean
+        default: false
+      tag:
+        description: Tag to publish as; the date if left blank
+        type: string
+        default: ""
+
+jobs:
+  build:
+    uses: Zhang-En-Yao/assets.core/.github/workflows/trip-data.yml@main
+    with:
+      places: ${{ inputs.places }}
+      streets: ${{ inputs.streets }}
+      tag: ${{ inputs.tag }}
