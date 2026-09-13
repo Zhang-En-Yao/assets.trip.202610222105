@@ -1,0 +1,9 @@
+name: Check
+
+# Every push: does content.json, places.json and streets.json still agree with each other?
+# The scripts live in assets.core so this file never needs to change.
+on: [push, pull_request]
+
+jobs:
+  check:
+    uses: Zhang-En-Yao/assets.core/.github/workflows/trip-check.yml@main
