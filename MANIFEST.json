@@ -1,0 +1,19 @@
+{
+  "trip": "202610222105",
+  "title": "Spain Trip \u2014 Historical Itinerary",
+  "built": "2026-09-13T04:12:03+00:00",
+  "datasets": {
+    "content.json": {
+      "rows": 69,
+      "bytes": 91508
+    },
+    "places.json": {
+      "rows": 69,
+      "bytes": 26080
+    },
+    "streets.json": {
+      "rows": 32103,
+      "bytes": 4765436
+    }
+  }
+}
