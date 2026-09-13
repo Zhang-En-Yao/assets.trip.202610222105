@@ -232,8 +232,8 @@
             {
               "name": "Mirador del Valle",
               "kind": "Viewpoint",
-              "lat": 39.8525,
-              "lon": -4.0327,
+              "lat": 39.85323,
+              "lon": -4.03199,
               "body": [
                 "A belvedere on the Carretera de Circunvalación across the Tagus gorge, on the hills south of the city. It gives the classic panorama of Toledo rising in a single mass above the river, cathedral spire and Alcázar block dominating — essentially the view El Greco composed in his *View of Toledo* and *View and Plan*. Best at sunset and after dark, when the monuments are lit."
               ]
@@ -338,8 +338,8 @@
             {
               "name": "Gonzar",
               "kind": "Hamlet",
-              "lat": 42.8842,
-              "lon": -7.835,
+              "lat": 42.82544,
+              "lon": -7.69588,
               "body": [
                 "A hamlet on the high, open farmland of the *meseta lucense*, in the parish of Gonzar (municipality of Portomarín). It appears in medieval pilgrim itineraries as a staging point and has a small Romanesque church, Santa María de Gonzar. It has no urban history to speak of; its role, then as now, is to offer a bed and a meal to pilgrims who want to break the long stretch between Portomarín and Palas de Rei."
               ]
@@ -1025,8 +1025,8 @@
         {
           "time": "Evening",
           "place": "Mirador del Valle",
-          "lat": 39.8525,
-          "lon": -4.0327
+          "lat": 39.85323,
+          "lon": -4.03199
         }
       ]
     },
@@ -1105,8 +1105,8 @@
         {
           "time": "Afternoon",
           "place": "Gonzar",
-          "lat": 42.8842,
-          "lon": -7.835
+          "lat": 42.82544,
+          "lon": -7.69588
         },
         {
           "time": "Evening",
